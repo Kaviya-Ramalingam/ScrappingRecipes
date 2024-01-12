@@ -58,6 +58,7 @@ public class RecipesTest extends BaseTest {
 	public void Pagination(String str) throws IOException, InterruptedException {
 		List<Object[]> scrapedRecipes = new ArrayList<>();
 		rlp.clickRecipeAtoZ();
+		
 		System.out.println("thread id for " + str + " ::" + Thread.currentThread().getId());
 		/*
 		 * int alphaPagination = rlp.AtoZPaginationSize();
