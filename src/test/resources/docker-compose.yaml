@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  browser:
+    image: 'selenium/standalone-chrome'
+    ports: 
+      - '4444:4444'
+    shm_size: '1gb'
+    
