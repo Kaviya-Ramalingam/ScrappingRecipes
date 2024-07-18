@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="32" failed="18" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T10:40:44 EDT" name="Suite" finished-at="2024-07-18T13:11:10 EDT" duration-ms="9025927">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T10:40:44 EDT" name="TestY" finished-at="2024-07-18T10:42:23 EDT" duration-ms="98391">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@43195e57]" started-at="2024-07-18T10:40:44 EDT" name="setup" finished-at="2024-07-18T10:40:47 EDT" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@43195e57]" started-at="2024-07-18T10:40:47 EDT" name="getUrl" finished-at="2024-07-18T10:40:49 EDT" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@43195e57]" started-at="2024-07-18T10:40:49 EDT" name="Pagination" finished-at="2024-07-18T10:42:21 EDT" duration-ms="92184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@43195e57]" started-at="2024-07-18T10:42:21 EDT" name="EndSession" finished-at="2024-07-18T10:42:23 EDT" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestY -->
+    <test started-at="2024-07-18T10:40:44 EDT" name="TestZ" finished-at="2024-07-18T10:43:02 EDT" duration-ms="137680">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@37afeb11]" started-at="2024-07-18T10:40:44 EDT" name="setup" finished-at="2024-07-18T10:40:47 EDT" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@37afeb11]" started-at="2024-07-18T10:40:47 EDT" name="getUrl" finished-at="2024-07-18T10:40:49 EDT" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@37afeb11]" started-at="2024-07-18T10:40:49 EDT" name="Pagination" finished-at="2024-07-18T10:43:01 EDT" duration-ms="132249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@37afeb11]" started-at="2024-07-18T10:43:01 EDT" name="EndSession" finished-at="2024-07-18T10:43:02 EDT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestZ -->
+    <test started-at="2024-07-18T10:40:44 EDT" name="TestU" finished-at="2024-07-18T10:43:23 EDT" duration-ms="158906">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@dd8ba08]" started-at="2024-07-18T10:40:44 EDT" name="setup" finished-at="2024-07-18T10:40:47 EDT" duration-ms="2361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@dd8ba08]" started-at="2024-07-18T10:40:47 EDT" name="getUrl" finished-at="2024-07-18T10:40:48 EDT" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@dd8ba08]" started-at="2024-07-18T10:40:48 EDT" name="Pagination" finished-at="2024-07-18T10:43:22 EDT" duration-ms="153834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@dd8ba08]" started-at="2024-07-18T10:43:22 EDT" name="EndSession" finished-at="2024-07-18T10:43:23 EDT" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestU -->
+    <test started-at="2024-07-18T10:43:23 EDT" name="TestE" finished-at="2024-07-18T10:55:30 EDT" duration-ms="726941">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@35cabb2a]" started-at="2024-07-18T10:43:23 EDT" name="setup" finished-at="2024-07-18T10:43:24 EDT" duration-ms="1119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@35cabb2a]" started-at="2024-07-18T10:43:24 EDT" name="getUrl" finished-at="2024-07-18T10:43:26 EDT" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@35cabb2a]" started-at="2024-07-18T10:43:26 EDT" name="Pagination" finished-at="2024-07-18T10:55:28 EDT" duration-ms="722543" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [979992844c36becee8e92d70c46de53b, clickElement {id=f.E49A3E3C3E97F4450181446EEFE84157.d.F69E9D4F29C6290812EE17384DBED310.e.7033}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on mac (979992844c36becee8e92d70c46de53b)] -> xpath: //div[@id='maincontent']/div[1]/div[2]/a[text()=8]]
+Session ID: 979992844c36becee8e92d70c46de53b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [979992844c36becee8e92d70c46de53b, clickElement {id=f.E49A3E3C3E97F4450181446EEFE84157.d.F69E9D4F29C6290812EE17384DBED310.e.7033}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on mac (979992844c36becee8e92d70c46de53b)] -> xpath: //div[@id='maincontent']/div[1]/div[2]/a[text()=8]]
+Session ID: 979992844c36becee8e92d70c46de53b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at testCases.RecipesTest.Pagination(RecipesTest.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@35cabb2a]" started-at="2024-07-18T10:55:28 EDT" name="EndSession" finished-at="2024-07-18T10:55:30 EDT" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestE -->
+    <test started-at="2024-07-18T10:43:02 EDT" name="TestD" finished-at="2024-07-18T11:06:00 EDT" duration-ms="1378122">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@38c6f217]" started-at="2024-07-18T10:43:02 EDT" name="setup" finished-at="2024-07-18T10:43:03 EDT" duration-ms="1015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@38c6f217]" started-at="2024-07-18T10:43:03 EDT" name="getUrl" finished-at="2024-07-18T10:43:05 EDT" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@38c6f217]" started-at="2024-07-18T10:43:05 EDT" name="Pagination" finished-at="2024-07-18T11:05:58 EDT" duration-ms="1373442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@38c6f217]" started-at="2024-07-18T11:05:58 EDT" name="EndSession" finished-at="2024-07-18T11:06:00 EDT" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestD -->
+    <test started-at="2024-07-18T10:55:30 EDT" name="TestF" finished-at="2024-07-18T11:14:13 EDT" duration-ms="1122586">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@564fabc8]" started-at="2024-07-18T10:55:30 EDT" name="setup" finished-at="2024-07-18T10:55:32 EDT" duration-ms="1453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@564fabc8]" started-at="2024-07-18T10:55:32 EDT" name="getUrl" finished-at="2024-07-18T10:55:43 EDT" duration-ms="10940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@564fabc8]" started-at="2024-07-18T10:55:43 EDT" name="Pagination" finished-at="2024-07-18T11:14:11 EDT" duration-ms="1108287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@564fabc8]" started-at="2024-07-18T11:14:11 EDT" name="EndSession" finished-at="2024-07-18T11:14:13 EDT" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestF -->
+    <test started-at="2024-07-18T10:40:44 EDT" name="TestB" finished-at="2024-07-18T11:23:32 EDT" duration-ms="2567742">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@222545dc]" started-at="2024-07-18T10:40:44 EDT" name="setup" finished-at="2024-07-18T10:40:47 EDT" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@222545dc]" started-at="2024-07-18T10:40:47 EDT" name="getUrl" finished-at="2024-07-18T10:40:49 EDT" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@222545dc]" started-at="2024-07-18T10:40:49 EDT" name="Pagination" finished-at="2024-07-18T11:23:30 EDT" duration-ms="2561418" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1785ebc80ee9a8084022a312f8f39209, clickElement {id=f.F60D31759CFEAD9277EC4C8EF22A67E8.d.56F1CCB3885CCBD6DAA8597466876710.e.28179}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54508/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on mac (1785ebc80ee9a8084022a312f8f39209)] -> xpath: //div[@id='maincontent']/div[1]/div[2]/a[text()=29]]
+Session ID: 1785ebc80ee9a8084022a312f8f39209]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1785ebc80ee9a8084022a312f8f39209, clickElement {id=f.F60D31759CFEAD9277EC4C8EF22A67E8.d.56F1CCB3885CCBD6DAA8597466876710.e.28179}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54508/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on mac (1785ebc80ee9a8084022a312f8f39209)] -> xpath: //div[@id='maincontent']/div[1]/div[2]/a[text()=29]]
+Session ID: 1785ebc80ee9a8084022a312f8f39209
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at testCases.RecipesTest.Pagination(RecipesTest.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@222545dc]" started-at="2024-07-18T11:23:30 EDT" name="EndSession" finished-at="2024-07-18T11:23:32 EDT" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestB -->
+    <test started-at="2024-07-18T11:23:32 EDT" name="TestI" finished-at="2024-07-18T11:24:28 EDT" duration-ms="56154">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@158d2680]" started-at="2024-07-18T11:23:32 EDT" name="setup" finished-at="2024-07-18T11:23:33 EDT" duration-ms="979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@158d2680]" started-at="2024-07-18T11:23:33 EDT" name="getUrl" finished-at="2024-07-18T11:23:57 EDT" duration-ms="23973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@158d2680]" started-at="2024-07-18T11:23:57 EDT" name="Pagination" finished-at="2024-07-18T11:24:27 EDT" duration-ms="30098" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [157721f98521d050193e4ed4cd54bc9f, clickElement {id=f.45CF30320499311B7ABE64D98B70C614.d.474A3819BFC2770CEF15A37D4FA8C3AD.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58187}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58187/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on mac (157721f98521d050193e4ed4cd54bc9f)] -> xpath: //a[@title='Recipea A to Z']]
+Session ID: 157721f98521d050193e4ed4cd54bc9f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [157721f98521d050193e4ed4cd54bc9f, clickElement {id=f.45CF30320499311B7ABE64D98B70C614.d.474A3819BFC2770CEF15A37D4FA8C3AD.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58187}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58187/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on mac (157721f98521d050193e4ed4cd54bc9f)] -> xpath: //a[@title='Recipea A to Z']]
+Session ID: 157721f98521d050193e4ed4cd54bc9f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObject.Recipe_LandingPage.clickRecipeAtoZ(Recipe_LandingPage.java:35)
+at testCases.RecipesTest.Pagination(RecipesTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@158d2680]" started-at="2024-07-18T11:24:27 EDT" name="EndSession" finished-at="2024-07-18T11:24:28 EDT" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestI -->
+    <test started-at="2024-07-18T11:24:28 EDT" name="TestJ" finished-at="2024-07-18T11:45:02 EDT" duration-ms="1233632">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@2b662a77]" started-at="2024-07-18T11:24:28 EDT" name="setup" finished-at="2024-07-18T11:24:33 EDT" duration-ms="5147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@2b662a77]" started-at="2024-07-18T11:24:33 EDT" name="getUrl" finished-at="2024-07-18T11:24:35 EDT" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@2b662a77]" started-at="2024-07-18T11:24:35 EDT" name="Pagination" finished-at="2024-07-18T11:44:58 EDT" duration-ms="1223022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@2b662a77]" started-at="2024-07-18T11:44:58 EDT" name="EndSession" finished-at="2024-07-18T11:45:02 EDT" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestJ -->
+    <test started-at="2024-07-18T11:06:00 EDT" name="TestG" finished-at="2024-07-18T11:45:14 EDT" duration-ms="2353526">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@36902638]" started-at="2024-07-18T11:06:00 EDT" name="setup" finished-at="2024-07-18T11:06:01 EDT" duration-ms="1213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@36902638]" started-at="2024-07-18T11:06:01 EDT" name="getUrl" finished-at="2024-07-18T11:06:03 EDT" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@36902638]" started-at="2024-07-18T11:06:03 EDT" name="Pagination" finished-at="2024-07-18T11:45:11 EDT" duration-ms="2347786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@36902638]" started-at="2024-07-18T11:45:11 EDT" name="EndSession" finished-at="2024-07-18T11:45:14 EDT" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestG -->
+    <test started-at="2024-07-18T11:14:13 EDT" name="TestH" finished-at="2024-07-18T11:56:38 EDT" duration-ms="2545218">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@74fe5c40]" started-at="2024-07-18T11:14:13 EDT" name="setup" finished-at="2024-07-18T11:14:14 EDT" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@74fe5c40]" started-at="2024-07-18T11:14:14 EDT" name="getUrl" finished-at="2024-07-18T11:14:15 EDT" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@74fe5c40]" started-at="2024-07-18T11:14:15 EDT" name="Pagination" finished-at="2024-07-18T11:56:35 EDT" duration-ms="2539768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@74fe5c40]" started-at="2024-07-18T11:56:35 EDT" name="EndSession" finished-at="2024-07-18T11:56:38 EDT" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestH -->
+    <test started-at="2024-07-18T11:45:14 EDT" name="TestL" finished-at="2024-07-18T12:15:04 EDT" duration-ms="1790230">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@223191a6]" started-at="2024-07-18T11:45:14 EDT" name="setup" finished-at="2024-07-18T11:45:17 EDT" duration-ms="3491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@223191a6]" started-at="2024-07-18T11:45:17 EDT" name="getUrl" finished-at="2024-07-18T11:45:19 EDT" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@223191a6]" started-at="2024-07-18T11:45:19 EDT" name="Pagination" finished-at="2024-07-18T12:14:59 EDT" duration-ms="1779890" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=12]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7b61d0e4-0cdd-4b3f-8298-2d783469913b, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=12]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:17280, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 41481, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:17280/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7b61d0e4-0cdd-4b3f-8298-2d783469913b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=12]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7b61d0e4-0cdd-4b3f-8298-2d783469913b, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=12]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:17280, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 41481, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:17280/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7b61d0e4-0cdd-4b3f-8298-2d783469913b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@223191a6]" started-at="2024-07-18T12:14:59 EDT" name="EndSession" finished-at="2024-07-18T12:15:04 EDT" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestL -->
+    <test started-at="2024-07-18T12:15:04 EDT" name="TestN" finished-at="2024-07-18T12:15:49 EDT" duration-ms="45085">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@67c27493]" started-at="2024-07-18T12:15:04 EDT" name="setup" finished-at="2024-07-18T12:15:06 EDT" duration-ms="2470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@67c27493]" started-at="2024-07-18T12:15:06 EDT" name="getUrl" finished-at="2024-07-18T12:15:37 EDT" duration-ms="30522" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58237d6b-9c1b-4adf-a96f-e65e9ffcefa9, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:25661, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 48086, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25661/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 58237d6b-9c1b-4adf-a96f-e65e9ffcefa9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58237d6b-9c1b-4adf-a96f-e65e9ffcefa9, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:25661, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 48086, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25661/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 58237d6b-9c1b-4adf-a96f-e65e9ffcefa9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+at testCases.RecipesTest.getUrl(RecipesTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@67c27493]" started-at="2024-07-18T12:15:37 EDT" name="Pagination" finished-at="2024-07-18T12:15:47 EDT" duration-ms="10276" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58237d6b-9c1b-4adf-a96f-e65e9ffcefa9, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:25661, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 48086, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25661/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 58237d6b-9c1b-4adf-a96f-e65e9ffcefa9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58237d6b-9c1b-4adf-a96f-e65e9ffcefa9, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:25661, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 48086, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25661/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 58237d6b-9c1b-4adf-a96f-e65e9ffcefa9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObject.Recipe_LandingPage.clickRecipeAtoZ(Recipe_LandingPage.java:35)
+at testCases.RecipesTest.Pagination(RecipesTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@67c27493]" started-at="2024-07-18T12:15:47 EDT" name="EndSession" finished-at="2024-07-18T12:15:49 EDT" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestN -->
+    <test started-at="2024-07-18T11:56:38 EDT" name="TestM" finished-at="2024-07-18T12:20:22 EDT" duration-ms="1424312">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@4efbca5a]" started-at="2024-07-18T11:56:38 EDT" name="setup" finished-at="2024-07-18T11:56:41 EDT" duration-ms="3108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@4efbca5a]" started-at="2024-07-18T11:56:41 EDT" name="getUrl" finished-at="2024-07-18T11:56:43 EDT" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@4efbca5a]" started-at="2024-07-18T11:56:43 EDT" name="Pagination" finished-at="2024-07-18T12:20:12 EDT" duration-ms="1409431" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Unexpected alert dialog detected. Performed handler "dismiss": 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [64400eaf-175b-4529-a1e2-99bc5817cd00, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=9]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8174, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 43631, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8174/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 64400eaf-175b-4529-a1e2-99bc5817cd00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler "dismiss": 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [64400eaf-175b-4529-a1e2-99bc5817cd00, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=9]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8174, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 43631, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8174/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 64400eaf-175b-4529-a1e2-99bc5817cd00
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@4efbca5a]" started-at="2024-07-18T12:20:12 EDT" name="EndSession" finished-at="2024-07-18T12:20:22 EDT" duration-ms="10050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestM -->
+    <test started-at="2024-07-18T12:20:22 EDT" name="TestP" finished-at="2024-07-18T12:25:13 EDT" duration-ms="290614">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@55183b20]" started-at="2024-07-18T12:20:22 EDT" name="setup" finished-at="2024-07-18T12:20:26 EDT" duration-ms="3768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@55183b20]" started-at="2024-07-18T12:20:26 EDT" name="getUrl" finished-at="2024-07-18T12:20:28 EDT" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@55183b20]" started-at="2024-07-18T12:20:28 EDT" name="Pagination" finished-at="2024-07-18T12:25:07 EDT" duration-ms="278993" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0cf0303d-d01d-4318-ba3d-379848d04600, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:42733, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 49348, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:42733/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 0cf0303d-d01d-4318-ba3d-379848d04600]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0cf0303d-d01d-4318-ba3d-379848d04600, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:42733, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 49348, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:42733/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 0cf0303d-d01d-4318-ba3d-379848d04600
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@55183b20]" started-at="2024-07-18T12:25:07 EDT" name="EndSession" finished-at="2024-07-18T12:25:13 EDT" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestP -->
+    <test started-at="2024-07-18T10:42:23 EDT" name="Testc" finished-at="2024-07-18T12:28:58 EDT" duration-ms="6395672">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@595b007d]" started-at="2024-07-18T10:42:23 EDT" name="setup" finished-at="2024-07-18T10:42:24 EDT" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@595b007d]" started-at="2024-07-18T10:42:24 EDT" name="getUrl" finished-at="2024-07-18T10:42:25 EDT" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@595b007d]" started-at="2024-07-18T10:42:25 EDT" name="Pagination" finished-at="2024-07-18T12:28:56 EDT" duration-ms="6390201" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='maincontent']/div[1]/div[2]/a[text()=73]"}
+  (Session info: chrome-headless-shell=126.0.6478.182)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8372f56e1e87389c6c1a2db3f22840f, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=73]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54936/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8372f56e1e87389c6c1a2db3f22840f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='maincontent']/div[1]/div[2]/a[text()=73]"}
+  (Session info: chrome-headless-shell=126.0.6478.182)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8372f56e1e87389c6c1a2db3f22840f, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=73]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /var/folders/9x/bfy4ys6j4vn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54936/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8372f56e1e87389c6c1a2db3f22840f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@595b007d]" started-at="2024-07-18T12:28:56 EDT" name="EndSession" finished-at="2024-07-18T12:28:58 EDT" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- Testc -->
+    <test started-at="2024-07-18T12:28:58 EDT" name="TestR" finished-at="2024-07-18T12:43:39 EDT" duration-ms="880572">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@1283bb96]" started-at="2024-07-18T12:28:58 EDT" name="setup" finished-at="2024-07-18T12:29:01 EDT" duration-ms="2340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@1283bb96]" started-at="2024-07-18T12:29:01 EDT" name="getUrl" finished-at="2024-07-18T12:29:02 EDT" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@1283bb96]" started-at="2024-07-18T12:29:02 EDT" name="Pagination" finished-at="2024-07-18T12:43:35 EDT" duration-ms="872924" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=5]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [541ca60f-8693-43ec-bd35-cbdffd14dfe1, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=5]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:35118, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 50683, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:35118/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 541ca60f-8693-43ec-bd35-cbdffd14dfe1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=5]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [541ca60f-8693-43ec-bd35-cbdffd14dfe1, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=5]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:35118, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 50683, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:35118/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 541ca60f-8693-43ec-bd35-cbdffd14dfe1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@1283bb96]" started-at="2024-07-18T12:43:35 EDT" name="EndSession" finished-at="2024-07-18T12:43:39 EDT" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestR -->
+    <test started-at="2024-07-18T11:45:02 EDT" name="TestK" finished-at="2024-07-18T12:47:57 EDT" duration-ms="3774956">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@c8c12ac]" started-at="2024-07-18T11:45:02 EDT" name="setup" finished-at="2024-07-18T11:45:05 EDT" duration-ms="3104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@c8c12ac]" started-at="2024-07-18T11:45:05 EDT" name="getUrl" finished-at="2024-07-18T11:45:06 EDT" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@c8c12ac]" started-at="2024-07-18T11:45:06 EDT" name="Pagination" finished-at="2024-07-18T12:47:43 EDT" duration-ms="3756605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@c8c12ac]" started-at="2024-07-18T12:47:43 EDT" name="EndSession" finished-at="2024-07-18T12:47:57 EDT" duration-ms="13705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestK -->
+    <test started-at="2024-07-18T12:25:13 EDT" name="TestQ" finished-at="2024-07-18T12:54:43 EDT" duration-ms="1770532">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@130d63be]" started-at="2024-07-18T12:25:13 EDT" name="setup" finished-at="2024-07-18T12:25:18 EDT" duration-ms="4826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@130d63be]" started-at="2024-07-18T12:25:18 EDT" name="getUrl" finished-at="2024-07-18T12:25:19 EDT" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@130d63be]" started-at="2024-07-18T12:25:19 EDT" name="Pagination" finished-at="2024-07-18T12:54:37 EDT" duration-ms="1757903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@130d63be]" started-at="2024-07-18T12:54:37 EDT" name="EndSession" finished-at="2024-07-18T12:54:43 EDT" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestQ -->
+    <test started-at="2024-07-18T12:54:43 EDT" name="TestV" finished-at="2024-07-18T12:55:31 EDT" duration-ms="47327">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@689604d9]" started-at="2024-07-18T12:54:43 EDT" name="setup" finished-at="2024-07-18T12:54:47 EDT" duration-ms="3828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@689604d9]" started-at="2024-07-18T12:54:47 EDT" name="getUrl" finished-at="2024-07-18T12:55:17 EDT" duration-ms="30102" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6770fd02-c053-4480-b9e2-f2737c12a2f8, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8358, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57317, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8358/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 6770fd02-c053-4480-b9e2-f2737c12a2f8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6770fd02-c053-4480-b9e2-f2737c12a2f8, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8358, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57317, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8358/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 6770fd02-c053-4480-b9e2-f2737c12a2f8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+at testCases.RecipesTest.getUrl(RecipesTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@689604d9]" started-at="2024-07-18T12:55:17 EDT" name="Pagination" finished-at="2024-07-18T12:55:28 EDT" duration-ms="10717" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6770fd02-c053-4480-b9e2-f2737c12a2f8, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8358, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57317, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8358/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 6770fd02-c053-4480-b9e2-f2737c12a2f8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6770fd02-c053-4480-b9e2-f2737c12a2f8, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8358, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57317, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8358/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 6770fd02-c053-4480-b9e2-f2737c12a2f8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObject.Recipe_LandingPage.clickRecipeAtoZ(Recipe_LandingPage.java:35)
+at testCases.RecipesTest.Pagination(RecipesTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@689604d9]" started-at="2024-07-18T12:55:28 EDT" name="EndSession" finished-at="2024-07-18T12:55:31 EDT" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestV -->
+    <test started-at="2024-07-18T12:55:31 EDT" name="TestW" finished-at="2024-07-18T12:56:17 EDT" duration-ms="46329">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@145f66e3]" started-at="2024-07-18T12:55:31 EDT" name="setup" finished-at="2024-07-18T12:55:34 EDT" duration-ms="3208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@145f66e3]" started-at="2024-07-18T12:55:34 EDT" name="getUrl" finished-at="2024-07-18T12:56:05 EDT" duration-ms="30521" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:2981, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57382, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2981/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:2981, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57382, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2981/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+at testCases.RecipesTest.getUrl(RecipesTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@145f66e3]" started-at="2024-07-18T12:56:05 EDT" name="Pagination" finished-at="2024-07-18T12:56:15 EDT" duration-ms="10266" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:2981, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57382, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2981/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:2981, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57382, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2981/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a2f10fc1-66f5-4fc4-a60d-adcca0ebe60a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObject.Recipe_LandingPage.clickRecipeAtoZ(Recipe_LandingPage.java:35)
+at testCases.RecipesTest.Pagination(RecipesTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@145f66e3]" started-at="2024-07-18T12:56:15 EDT" name="EndSession" finished-at="2024-07-18T12:56:17 EDT" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestW -->
+    <test started-at="2024-07-18T12:56:17 EDT" name="TestX" finished-at="2024-07-18T12:57:03 EDT" duration-ms="45637">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@2a65fe7c]" started-at="2024-07-18T12:56:17 EDT" name="setup" finished-at="2024-07-18T12:56:20 EDT" duration-ms="2628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@2a65fe7c]" started-at="2024-07-18T12:56:20 EDT" name="getUrl" finished-at="2024-07-18T12:56:50 EDT" duration-ms="30531" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [057063c5-4dc0-413f-8263-114ac85dbe03, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:23153, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57434, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:23153/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 057063c5-4dc0-413f-8263-114ac85dbe03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Navigation timed out after 30000 ms
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [057063c5-4dc0-413f-8263-114ac85dbe03, get {url=https://www.tarladalal.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:23153, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57434, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:23153/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 057063c5-4dc0-413f-8263-114ac85dbe03
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+at testCases.RecipesTest.getUrl(RecipesTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@2a65fe7c]" started-at="2024-07-18T12:56:50 EDT" name="Pagination" finished-at="2024-07-18T12:57:01 EDT" duration-ms="10273" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [057063c5-4dc0-413f-8263-114ac85dbe03, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:23153, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57434, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:23153/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 057063c5-4dc0-413f-8263-114ac85dbe03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@title='Recipea A to Z']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [057063c5-4dc0-413f-8263-114ac85dbe03, findElement {using=xpath, value=//a[@title='Recipea A to Z']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:23153, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 57434, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:23153/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 057063c5-4dc0-413f-8263-114ac85dbe03
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObject.Recipe_LandingPage.clickRecipeAtoZ(Recipe_LandingPage.java:35)
+at testCases.RecipesTest.Pagination(RecipesTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@2a65fe7c]" started-at="2024-07-18T12:57:01 EDT" name="EndSession" finished-at="2024-07-18T12:57:03 EDT" duration-ms="2202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestX -->
+    <test started-at="2024-07-18T12:47:57 EDT" name="TestT" finished-at="2024-07-18T13:08:11 EDT" duration-ms="1214690">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@351d00c0]" started-at="2024-07-18T12:47:57 EDT" name="setup" finished-at="2024-07-18T12:48:01 EDT" duration-ms="4287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@351d00c0]" started-at="2024-07-18T12:48:01 EDT" name="getUrl" finished-at="2024-07-18T12:48:05 EDT" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@351d00c0]" started-at="2024-07-18T12:48:05 EDT" name="Pagination" finished-at="2024-07-18T13:08:09 EDT" duration-ms="1203699" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=4]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cbdc68c4-f474-4929-871d-a2991d0b8645, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=4]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:29178, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 55406, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:29178/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: cbdc68c4-f474-4929-871d-a2991d0b8645]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=4]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cbdc68c4-f474-4929-871d-a2991d0b8645, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=4]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:29178, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 55406, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:29178/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: cbdc68c4-f474-4929-871d-a2991d0b8645
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@351d00c0]" started-at="2024-07-18T13:08:09 EDT" name="EndSession" finished-at="2024-07-18T13:08:11 EDT" duration-ms="2513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestT -->
+    <test started-at="2024-07-18T12:15:49 EDT" name="TestO" finished-at="2024-07-18T13:09:23 EDT" duration-ms="3214181">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@2f9f7dcf]" started-at="2024-07-18T12:15:49 EDT" name="setup" finished-at="2024-07-18T12:15:51 EDT" duration-ms="2233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@2f9f7dcf]" started-at="2024-07-18T12:15:51 EDT" name="getUrl" finished-at="2024-07-18T12:16:00 EDT" duration-ms="8497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@2f9f7dcf]" started-at="2024-07-18T12:16:00 EDT" name="Pagination" finished-at="2024-07-18T13:09:12 EDT" duration-ms="3192605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[O]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@2f9f7dcf]" started-at="2024-07-18T13:09:12 EDT" name="EndSession" finished-at="2024-07-18T13:09:23 EDT" duration-ms="10843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestO -->
+    <test started-at="2024-07-18T12:43:39 EDT" name="TestS" finished-at="2024-07-18T13:11:10 EDT" duration-ms="1651224">
+      <class name="testCases.RecipesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.RecipesTest@3349e9bb]" started-at="2024-07-18T12:43:39 EDT" name="setup" finished-at="2024-07-18T12:43:41 EDT" duration-ms="2337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:1, instance:testCases.RecipesTest@3349e9bb]" started-at="2024-07-18T12:43:41 EDT" name="getUrl" finished-at="2024-07-18T12:43:43 EDT" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="Pagination(java.lang.String)[pri:2, instance:testCases.RecipesTest@3349e9bb]" started-at="2024-07-18T12:43:43 EDT" name="Pagination" finished-at="2024-07-18T13:11:08 EDT" duration-ms="1644671" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=7]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e9b36e8-cbd9-4d47-afb5-aba8df6d6540, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=7]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8790, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 54743, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8790/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 2e9b36e8-cbd9-4d47-afb5-aba8df6d6540]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='maincontent']/div[1]/div[2]/a[text()=7]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e9b36e8-cbd9-4d47-afb5-aba8df6d6540, findElement {using=xpath, value=//div[@id='maincontent']/div[1]/div[2]/a[text()=7]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0, moz:accessibilityChecks: false, moz:buildID: 20240704121409, moz:debuggerAddress: 127.0.0.1:8790, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 23.5.0, moz:processID: 54743, moz:profile: /var/folders/9x/bfy4ys6j4vn..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8790/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 2e9b36e8-cbd9-4d47-afb5-aba8df6d6540
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at testCases.RecipesTest.Pagination(RecipesTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pagination -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:testCases.RecipesTest@3349e9bb]" started-at="2024-07-18T13:11:08 EDT" name="EndSession" finished-at="2024-07-18T13:11:10 EDT" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- testCases.RecipesTest -->
+    </test> <!-- TestS -->
+  </suite> <!-- Suite -->
+</testng-results>

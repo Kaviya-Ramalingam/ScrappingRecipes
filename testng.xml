@@ -1,163 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-	<suite name="Suite" parallel="false" thread-count="5">
-	<test name="TestA" >
+	<suite name="Suite" parallel="tests" thread-count="3">
+	
+<test name="TestY" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="A"></parameter>
+ <parameter name="string" value="Y"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestB" >
+
+<test name="TestZ" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="B"></parameter>
+ <parameter name="string" value="Z"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestC" >
+
+<test name="TestU" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="C"></parameter>
+ <parameter name="string" value="U"></parameter>
 </classes>
 </test> <!-- Test -->
+
 <test name="TestD" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="D"></parameter>
+ <parameter name="string" value="D"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestE" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="E"></parameter>
-</classes>
-</test> <!-- Test -->
+
 <test name="TestF" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="F"></parameter>
+ <parameter name="string" value="F"></parameter>
 </classes>
 </test> <!-- Test -->
+
 <test name="TestG" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="G"></parameter>
+ <parameter name="string" value="G"></parameter>
 </classes>
 </test> <!-- Test -->
+
 <test name="TestH" >
+		 <parameter name="browser" value="chrome"></parameter>		 
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="H"></parameter>
+ <parameter name="string" value="H"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestI" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="I"></parameter>
-</classes>
-</test> <!-- Test -->
+
 <test name="TestJ" >
+	<parameter name="browser" value="chrome"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="J"></parameter>
 </classes>
 </test> <!-- Test -->
 <test name="TestK" >
+	<parameter name="browser" value="chrome"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="K"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestL" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="L"></parameter>
-</classes>
-</test> <!-- Test -->
-<test name="TestM" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="M"></parameter>
-</classes>
-</test> <!-- Test -->
-<test name="TestN" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="N"></parameter>
-</classes>
-</test> <!-- Test -->
 <test name="TestO" >
+	<parameter name="browser" value="chrome"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="O"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestP" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="P"></parameter>
-</classes>
-</test> <!-- Test -->
 <test name="TestQ" >
+	<parameter name="browser" value="chrome"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="Q"></parameter>
 </classes>
 </test> <!-- Test -->
+<test name="TestE" >
+	<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="testCases.RecipesTest"/>
+<parameter name="string" value="E"></parameter>
+</classes>
+</test> <!-- Test -->
+<test name="TestI" >
+	<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="testCases.RecipesTest"/>
+<parameter name="string" value="I"></parameter>
+</classes>
+</test> <!-- Test -->
+<test name="TestM" >
+	<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="testCases.RecipesTest"/>
+<parameter name="string" value="M"></parameter>
+</classes>
+</test> <!-- Test -->
+<test name="TestL" >
+	<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="testCases.RecipesTest"/>
+<parameter name="string" value="L"></parameter>
+</classes>
+</test> <!-- Test -->
+<test name="TestN" >
+	<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="testCases.RecipesTest"/>
+<parameter name="string" value="N"></parameter>
+</classes>
+</test> <!-- Test -->
+<test name="TestP" >
+	<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="testCases.RecipesTest"/>
+<parameter name="string" value="P"></parameter>
+</classes>
+</test> <!-- Test -->
 <test name="TestR" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="R"></parameter>
 </classes>
 </test> <!-- Test -->
 <test name="TestS" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="S"></parameter>
 </classes>
 </test> <!-- Test -->
 <test name="TestT" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="T"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestU" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="U"></parameter>
-</classes>
-</test> <!-- Test -->
 <test name="TestV" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="V"></parameter>
 </classes>
 </test> <!-- Test -->
 <test name="TestW" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
 <parameter name="string" value="W"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestX" >
+
+
+<test name="TestB" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="X"></parameter>
+<parameter name="string" value="B"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestY" >
+<test name="TestC" >
+	<parameter name="browser" value="firefox"></parameter>
 <classes>
 <class name="testCases.RecipesTest"/>
-<parameter name="string" value="Y"></parameter>
+<parameter name="string" value="C"></parameter>
 </classes>
 </test> <!-- Test -->
-<test name="TestZ" >
-<classes>
-<class name="testCases.RecipesTest"/>
-<parameter name="string" value="Z"></parameter>
-</classes>
-</test> <!-- Test -->
+
+
 </suite> <!-- Suite -->
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 

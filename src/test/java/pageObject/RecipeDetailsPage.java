@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import Base.BaseTest;
+import Base.BaseTest.WebDriverManager;
 
 public class RecipeDetailsPage extends BaseTest {
 	WebDriver driver;
@@ -17,7 +18,7 @@ public class RecipeDetailsPage extends BaseTest {
 	public String nutrientValuesText;
 
 	public RecipeDetailsPage(WebDriver driver) {
-		this.driver = driver;
+		this.driver = WebDriverManager.getDriver();
 		PageFactory.initElements(driver, this);
 	}
 

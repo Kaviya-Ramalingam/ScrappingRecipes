@@ -22,18 +22,28 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseTest {
 
-	public static WebDriver driver;
-	public Properties prop;
+	//public static WebDriver driver;
+	public static Properties prop;
 	public static WebDriverWait wait;
+	
+	public static class WebDriverManager {
+	    private final static ThreadLocal<WebDriver> thdriver = new ThreadLocal<>();
 
-	public WebDriver initializedriver() throws IOException {
+	    public static WebDriver getDriver() {
+	        return thdriver.get();
+	    }
+
+	 
+	
+
+	public static void initializedriver(String browserName) throws IOException {
 
 		prop = new Properties();
 
 		FileInputStream fis = new FileInputStream(
 				"/Users/uvaraj/eclipse-workspace/ScrappingRecipes/src/test/resources/data.properties");
 		prop.load(fis);
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
@@ -43,20 +53,34 @@ public class BaseTest {
 			// options.addArguments("--disable-extensions");
 			// options.addArguments("--blink-settings=imageEnabled=false");
 
-			driver = new ChromeDriver(options);
+		thdriver.set(new ChromeDriver(options));
+			
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("--headless");
-			driver = new FirefoxDriver(options);
+			thdriver.set(new FirefoxDriver(options));
 		} else if (browserName.equalsIgnoreCase("edge")) {
-			driver = new EdgeDriver();
+			thdriver.set(new EdgeDriver());
 		}
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-		driver.manage().window().maximize();
-		return driver;
+		getDriver().manage().deleteAllCookies();
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		getDriver().manage().window().maximize();
+		
+	}
+	
+	
+
+	    public static void quitDriver() {
+	        WebDriver driver = getDriver();
+	        if (driver != null) {
+	            driver.quit();
+	            thdriver.remove(); // Remove the ThreadLocal variable
+	        }
+	    }
+
+		
 	}
 
 	

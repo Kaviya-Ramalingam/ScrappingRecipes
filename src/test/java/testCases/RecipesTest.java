@@ -1,86 +1,88 @@
 package testCases;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import Base.BaseTest;
+import Base.BaseTest.WebDriverManager;
 import pageObject.RecipeDetailsPage;
 import pageObject.Recipe_LandingPage;
-import utility.AllergiesRecipes;
-import utility.EliminateRecipes;
 import utility.ExcelWriter;
-import utility.ExcelWriter2;
-import utility.ToAddRecipes;
 
 public class RecipesTest extends BaseTest {
 
 	Recipe_LandingPage rlp;
 	RecipeDetailsPage rdp;
 	ExcelWriter writer = new ExcelWriter();
-	ExcelWriter2 writer2 = new ExcelWriter2();
-	EliminateRecipes Eliminate = new EliminateRecipes();
-	ToAddRecipes Added = new ToAddRecipes();
-	AllergiesRecipes Allergies = new AllergiesRecipes();
+
 	String recipeID, recipeName, currentPaginationPageUrl, recipeCategory, ingredients, preparationMethod,
 			nutrientValues, preparationTime, cookingTime, recipeURL, foodCategory, currentAlphaPageUrl;
 
+	public static ConcurrentHashMap<String, List<Object[]>> scrapedRecipes = new ConcurrentHashMap<>();
 	@BeforeClass
-
-	public void setup() throws IOException {
-		initializedriver();
-		rlp = new Recipe_LandingPage(driver, prop);
-		rdp = new RecipeDetailsPage(driver);
+	@Parameters({ "browser" })
+	public void setup(String browserName) throws IOException {
+		WebDriverManager.initializedriver(browserName);
+		rlp = new Recipe_LandingPage(WebDriverManager.getDriver(), prop);
+		rdp = new RecipeDetailsPage(WebDriverManager.getDriver());
 	}
 
 	@Test(priority = 1)
 	public void getUrl() throws IOException {
-
+		// WebDriver driver = WebDriverManager.getDriver();
 		String url = prop.getProperty("url");
-		driver.get(url);
+		WebDriverManager.getDriver().get(url);
 
 	}
 
 	@Parameters({ "string" })
 	@Test(priority = 2)
-	public void Pagination(String str) throws IOException, InterruptedException {
-		List<Object[]> scrapedRecipes = new ArrayList<>();
+	public void Pagination(String str) throws Exception {
+		WebDriver driver = WebDriverManager.getDriver();
+	//final ConcurrentHashMap<String, List<Object[]>> scrapedRecipes = new ConcurrentHashMap<>();
+		//List<Object[]> scrapedRecipes = new ArrayList<>();
 		rlp.clickRecipeAtoZ();
-		
-		System.out.println("thread id for " + str + " ::" + Thread.currentThread().getId());
+
+		System.out.println("thread id for   ::" + Thread.currentThread().getId());
+
 		/*
 		 * int alphaPagination = rlp.AtoZPaginationSize();
-		 * System.out.println("AtoZpage size:" + alphaPagination); for (int i = 3; i <
-		 * alphaPagination; i++) { String str = rlp.AtoZPagination.get(i).getText();
+		 * System.out.println("AtoZpage size:" + alphaPagination); for (int i = 3; i
+		 * <alphaPagination; i++) { String str = rlp.AtoZPagination.get(i).getText();
 		 * String strText = "\"" + str + "\""; System.out.println(strText); WebElement
 		 * alphaPagination1 = driver.findElement(
 		 * By.xpath("//table[@id='ctl00_cntleftpanel_mnuAlphabets']//td[1]//a[text()=" +
 		 * strText + "]")); //alphaPagination1.click();
 		 */
+
 		String alphaurl = "https://www.tarladalal.com/RecipeAtoZ.aspx?beginswith=" + str + "";
 		System.out.println(alphaurl);
-		//driver.navigate().to(alphaurl);
+		// driver.navigate().to(alphaurl);
 		driver.get(alphaurl);
 		// Thread.sleep(300);
-		String currentAlphaPageUrl = driver.getCurrentUrl();
+		String currentAlphaPageUrl = WebDriverManager.getDriver().getCurrentUrl();
 		List<WebElement> paginationLinks = rlp.NumbersPagination;// Find all pagination links once
 		if (!paginationLinks.isEmpty()) {
 			int numberOfPages = Integer.parseInt(paginationLinks.get(paginationLinks.size() - 1).getText());
 			System.out.println("Number of pages in alphabet " + str + " is: " + numberOfPages);
 			for (int j = 1; j <= numberOfPages; j++) {
-				WebElement numPagination = driver
+				WebElement numPagination = WebDriverManager.getDriver()
 						.findElement(By.xpath("//div[@id='maincontent']/div[1]/div[2]/a[text()=" + j + "]"));
 				numPagination.click();
 				int RecipesInPage = rlp.RecipeNameSize();
@@ -91,7 +93,7 @@ public class RecipesTest extends BaseTest {
 					try {
 						recipeID = rlp.getRecipeID(k);
 						recipeName = rlp.getRecipeName(k);
-						currentPaginationPageUrl = driver.getCurrentUrl();
+						currentPaginationPageUrl = WebDriverManager.getDriver().getCurrentUrl();
 						rlp.RecipeName.get(k).click();
 						recipeCategory = rdp.getRecipeCategory();
 						foodCategory = rdp.getFoodCategory();
@@ -105,10 +107,10 @@ public class RecipesTest extends BaseTest {
 						// e.printStackTrace();
 
 						try {
-							wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+							wait = new WebDriverWait(WebDriverManager.getDriver(), Duration.ofSeconds(10));
 							wait.until(ExpectedConditions.alertIsPresent());
 
-							Alert alert = driver.switchTo().alert();
+							Alert alert = WebDriverManager.getDriver().switchTo().alert();
 							String alertText = alert.getText();
 							System.out.println("Alert data: " + alertText);
 							alert.accept();
@@ -119,13 +121,22 @@ public class RecipesTest extends BaseTest {
 					} finally {
 						Object[] recipeData = { recipeID, recipeName, ingredients, preparationMethod, nutrientValues,
 								preparationTime, cookingTime, recipeURL, foodCategory, recipeCategory };
-						scrapedRecipes.add(recipeData);
+						//scrapedRecipes.add(recipeData);
 						
-						// writer.writeToExcel(scrapedRecipes);
-						writer2.writeToExcel(scrapedRecipes);
-						scrapedRecipes.clear();
+						// Synchronize access to scrapedRecipes
+                        synchronized (scrapedRecipes) {
+                            // Add data to ConcurrentHashMap
+                            List<Object[]> recipes = scrapedRecipes.computeIfAbsent(str, key -> new ArrayList<>());
+                            recipes.add(recipeData);
+                            System.out.println("number of recipes initally:"+ recipes.size());
+                        }
+						//writer.writeToExcel(scrapedRecipes);
+						
+
+						//scrapedRecipes.clear();
 						try {
-							driver.get(currentPaginationPageUrl);
+							WebDriverManager.getDriver().get(currentPaginationPageUrl);
+							
 
 						} catch (Exception na) {
 							// na.printStackTrace();
@@ -134,7 +145,7 @@ public class RecipesTest extends BaseTest {
 								wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 								wait.until(ExpectedConditions.alertIsPresent());
 
-								Alert alert = driver.switchTo().alert();
+								Alert alert = WebDriverManager.getDriver().switchTo().alert();
 								String alertText = alert.getText();
 								System.out.println("Alert data: " + alertText);
 								alert.accept();
@@ -144,32 +155,47 @@ public class RecipesTest extends BaseTest {
 							// Thread.sleep(300);
 						}
 						System.out.println("-------------------------------------------------");
-
+						
 					}
 				}
 			}
-
+			//writer.writeToExcel(scrapedRecipes);
 		} else {
 			System.out.println("List is empty. No elements found.");
 		}
-		driver.get(currentAlphaPageUrl); // to go back to previous page using url instead of giving
-											// ->driver.navigate().back();
+		WebDriverManager.getDriver().get(currentAlphaPageUrl); // to go back to previous page using url instead of
+																// giving
+		// ->driver.navigate().back();
 		System.out.println("-------------------------------------------------");
-		driver.quit();
+		// driver.quit();
+	
+
+	//writer.writeToExcel(scrapedRecipes);
 	}
 
-	/*
-	 * @Test(priority = 3)
-	 * 
-	 * //driver.quit();
-	 * 
-	 * /* * public void eliminatingRecipes() throws Exception {
-	 * 
-	 * Eliminate.segregateData(); Added.AddedRecipesData(); Allergies.Allergies();
-	 * 
-	 * LoggerLoad.info("elimination completed"); }
-	 */
+	@AfterTest
+	public void EndSession() {
+		int totalRecipes=0;
+		synchronized (scrapedRecipes) {
+			try {
+		
+			List<Object[] >allRecipes = new ArrayList<>();
+            for (Map.Entry<String, List<Object[]>> entry : scrapedRecipes.entrySet()) {
+                String key = entry.getKey();
+                List<Object[]> recipe = entry.getValue();
+                allRecipes.addAll(recipe);
+                totalRecipes = recipe.size();
+                System.out.println("number of recipes:"+ totalRecipes);
+            }
+                    writer.writeToExcel(allRecipes); // Write each list of recipes to Excel
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }finally {
+            }
+           // scrapedRecipes.clear(); 
+        }
 
-	// https://www.tarladalal.com/RecipeAtoZ.aspx?beginswith=A
+		WebDriverManager.quitDriver();
+	}
 
 }

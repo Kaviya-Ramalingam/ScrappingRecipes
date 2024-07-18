@@ -15,7 +15,7 @@ public class Recipe_LandingPage extends BaseTest {
 	Properties prop;
 
 	public Recipe_LandingPage(WebDriver driver, Properties prop) {
-		this.driver = driver;
+		this.driver = WebDriverManager.getDriver();
 		this.prop = prop;
 		PageFactory.initElements(driver, this);
 	}

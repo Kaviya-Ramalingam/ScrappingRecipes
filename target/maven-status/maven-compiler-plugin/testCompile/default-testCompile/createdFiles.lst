@@ -1,10 +1,7 @@
 utility/ExcelWriter.class
 Base/BaseTest.class
 pageObject/RecipeDetailsPage.class
-utility/AllergiesRecipes.class
-testCases/RecipesTest.class
-utility/EliminateRecipes.class
 pageObject/Recipe_LandingPage.class
 utility/LoggerLoad.class
-utility/ExcelWriter2.class
-utility/ToAddRecipes.class
+testCases/RecipesTest.class
+Base/BaseTest$WebDriverManager.class

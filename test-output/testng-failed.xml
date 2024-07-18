@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="TestE(failed)">
+    <parameter name="string" value="E"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestE(failed) -->
+  <test thread-count="4" parallel="tests" name="TestB(failed)">
+    <parameter name="string" value="B"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestB(failed) -->
+  <test thread-count="4" parallel="tests" name="TestI(failed)">
+    <parameter name="string" value="I"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestI(failed) -->
+  <test thread-count="4" parallel="tests" name="TestL(failed)">
+    <parameter name="string" value="L"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestL(failed) -->
+  <test thread-count="4" parallel="tests" name="TestN(failed)">
+    <parameter name="string" value="N"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="getUrl"/>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestN(failed) -->
+  <test thread-count="4" parallel="tests" name="TestM(failed)">
+    <parameter name="string" value="M"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestM(failed) -->
+  <test thread-count="4" parallel="tests" name="TestP(failed)">
+    <parameter name="string" value="P"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestP(failed) -->
+  <test thread-count="4" parallel="tests" name="Testc(failed)">
+    <parameter name="string" value="C"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- Testc(failed) -->
+  <test thread-count="4" parallel="tests" name="TestR(failed)">
+    <parameter name="string" value="R"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestR(failed) -->
+  <test thread-count="4" parallel="tests" name="TestV(failed)">
+    <parameter name="string" value="V"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="getUrl"/>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestV(failed) -->
+  <test thread-count="4" parallel="tests" name="TestW(failed)">
+    <parameter name="string" value="W"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="getUrl"/>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestW(failed) -->
+  <test thread-count="4" parallel="tests" name="TestX(failed)">
+    <parameter name="string" value="X"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="getUrl"/>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestX(failed) -->
+  <test thread-count="4" parallel="tests" name="TestT(failed)">
+    <parameter name="string" value="T"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestT(failed) -->
+  <test thread-count="4" parallel="tests" name="TestS(failed)">
+    <parameter name="string" value="S"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.RecipesTest">
+        <methods>
+          <include name="Pagination" invocation-numbers="0"/>
+          <include name="EndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.RecipesTest -->
+    </classes>
+  </test> <!-- TestS(failed) -->
+</suite> <!-- Failed suite [Suite] -->
