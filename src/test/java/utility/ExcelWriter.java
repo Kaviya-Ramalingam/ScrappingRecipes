@@ -19,15 +19,15 @@ public class ExcelWriter {
 
 		ZipSecureFile.setMinInflateRatio(0);
 		String filename = "newScrape.xlsx";
-		String filepath = "/Users/uvaraj/Downloads/newScrape.xlsx";
+		String filepath = "/Users/uvaraj/eclipse-workspace/ScrappingRecipes/RecipesList.xlsx";
 		
 		synchronized(lock) {
 			
 		
 		XSSFWorkbook workbook = new XSSFWorkbook(filepath);
-		XSSFSheet sheet = workbook.getSheet("RecipeSS");
+		XSSFSheet sheet = workbook.getSheet("Recipes");
 		if (sheet == null) {
-			sheet = workbook.createSheet("RecipeSS");
+			sheet = workbook.createSheet("Recipes");
 		}
 
 		// Create header row
