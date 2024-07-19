@@ -18,7 +18,7 @@ public class ExcelWriter {
 	public void writeToExcel(List<Object[]> data) throws IOException {
 
 		ZipSecureFile.setMinInflateRatio(0);
-		String filename = "newScrape.xlsx";
+		String filename = "RecipesList.xlsx";
 		String filepath = "/Users/uvaraj/eclipse-workspace/ScrappingRecipes/RecipesList.xlsx";
 		
 		synchronized(lock) {

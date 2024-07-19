@@ -48,10 +48,10 @@ public class BaseTest {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			 options.addArguments("--headless");
-			// options.addArguments("--disable-popup-blocking");
-			// options.addArguments("--disable-notifications");
-			// options.addArguments("--disable-extensions");
-			// options.addArguments("--blink-settings=imageEnabled=false");
+			options.addArguments("--disable-popup-blocking");
+			 options.addArguments("--disable-notifications");
+			 options.addArguments("--disable-extensions");
+			 options.addArguments("--blink-settings=imageEnabled=false");
 
 		thdriver.set(new ChromeDriver(options));
 			
@@ -59,6 +59,11 @@ public class BaseTest {
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("--headless");
+			options.addArguments("--disable-popup-blocking");
+			 options.addArguments("--disable-notifications");
+			 options.addArguments("--disable-extensions");
+			 options.addArguments("--blink-settings=imageEnabled=false");
+
 			thdriver.set(new FirefoxDriver(options));
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			thdriver.set(new EdgeDriver());
