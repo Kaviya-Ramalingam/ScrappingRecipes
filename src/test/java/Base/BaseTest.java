@@ -32,9 +32,7 @@ public class BaseTest {
 	    public static WebDriver getDriver() {
 	        return thdriver.get();
 	    }
-
 	 
-	
 
 	public static void initializedriver(String browserName) throws IOException {
 
@@ -47,7 +45,7 @@ public class BaseTest {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
-			 options.addArguments("--headless");
+			options.addArguments("--headless");
 			options.addArguments("--disable-popup-blocking");
 			 options.addArguments("--disable-notifications");
 			 options.addArguments("--disable-extensions");
@@ -58,7 +56,7 @@ public class BaseTest {
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
 			options.addArguments("--disable-popup-blocking");
 			 options.addArguments("--disable-notifications");
 			 options.addArguments("--disable-extensions");
@@ -70,7 +68,7 @@ public class BaseTest {
 		}
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		//getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		getDriver().manage().window().maximize();
 		
 	}
